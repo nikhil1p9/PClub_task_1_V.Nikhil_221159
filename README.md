@@ -122,8 +122,9 @@ cout<<maximumsum(arr,n,t);
    
    shuffle(len.begin()+1,len.end());
    
-    for( int f=0;f<n;f++){
-        cout<<len[f]<<" ";
+      for( int f=0;f<n;f++){
+      if(f<n-1) { cout<<len[f]<<" ";}
+      else{cout<<len[f]<<endl;}
     }
     
   return 0;
