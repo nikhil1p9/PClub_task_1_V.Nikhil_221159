@@ -22,13 +22,9 @@ int maxSubArraySumlength(vector<int>a, int size)
            { max_so_far = max_ending_here;
             count ++;}
     }
-    return count;
-}
-
-
+    return count;}
 int maximumsum(vector<int> arr, int n,int t)
 {
-	
 	vector<pair<int, int> > L(n);
 
 	int index = 0;
@@ -74,8 +70,6 @@ int maximumsum(vector<int> arr, int n,int t)
         }
         return countans;
 }
-
-
 
 int main(){
     int n;
