@@ -12,7 +12,11 @@ maximum number of chocolate.
 # Solution in C++
 
 #include <bits/stdc++.h>
+
 using namespace std;
+
+// Creating a function to find the time 
+
 int maxSubArraySumlength(vector<int>a, int size){
     int count=0;
     int max_so_far = INT_MIN, max_ending_here = a[0];
@@ -24,7 +28,9 @@ int maxSubArraySumlength(vector<int>a, int size){
             count ++;}
     }
     return count;}
-	
+
+ // function to find the total count of chocolates in time t
+ 
 int maximumsum(vector<int> arr, int n,int t){
 
 	vector<pair<int, int> > L(n);
