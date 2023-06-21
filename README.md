@@ -12,8 +12,8 @@ maximum number of chocolate.
 
 #include <bits/stdc++.h>
 using namespace std;
-int maxSubArraySumlength(vector<int>a, int size)
-{   int count=0;
+int maxSubArraySumlength(vector<int>a, int size){
+    int count=0;
     int max_so_far = INT_MIN, max_ending_here = a[0];
  
     for (int i = 0; i < size; i++) {
@@ -23,8 +23,8 @@ int maxSubArraySumlength(vector<int>a, int size)
             count ++;}
     }
     return count;}
-int maximumsum(vector<int> arr, int n,int t)
-{
+	
+int maximumsum(vector<int> arr, int n,int t){
 	vector<pair<int, int> > L(n);
 
 	int index = 0;
