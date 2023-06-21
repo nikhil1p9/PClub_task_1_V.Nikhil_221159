@@ -103,20 +103,28 @@ cout<<maximumsum(arr,n,t);
 
   using namespace std;
 
-   int main(int argc, char *argv[]) {
+   int main(int argc, char *argv[]) { 
+   
   registerGen(argc, argv, 1);
 
   int n = atoi(argv[1]);
+  
   int t = atoi(argv[2]);
+  
    vector<int> len(n);
+   
    cout<<n<<endl;
+   
    for(int i=0;i<n;i++){
      if(n>0)
     len[i]=rnd.next(-100000,100000);
    }
+   
    shuffle(len.begin()+1,len.end());
+   
     for( int f=0;f<n;f++){
         cout<<len[f]<<" ";
     }
+    
   return 0;
   }
