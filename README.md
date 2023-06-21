@@ -129,3 +129,8 @@ cout<<maximumsum(arr,n,t);
     
   return 0;
   }
+
+
+
+#Polygon link
+https://polygon.codeforces.com/p8Zb07A/nikhil1p9/beggars-life
